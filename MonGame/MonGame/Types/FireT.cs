@@ -11,7 +11,7 @@ namespace Game.Types
         private TypeName name = TypeName.Nature;
         /// <inheritdoc />
         public FireT() : base()
-            {
+        {
             base.InitType(name);
         }
 

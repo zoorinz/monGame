@@ -43,6 +43,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Monster\IMonster.cs" />
+    <Compile Include="Monster\Monster.cs" />
+    <Compile Include="Monster\Stats\IStat.cs" />
+    <Compile Include="Monster\Stats\Stat.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Types\FireT.cs" />
